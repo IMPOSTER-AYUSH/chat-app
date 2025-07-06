@@ -15,7 +15,7 @@ const {getUsers, users, selectedUser, setSelectedUser,
 
   const navigate = useNavigate();
 
-  const filterUsers = input ? users.filter((user)=>user.fullName.toLoweCase().includes(input.toLoweCase())) : users;
+  const filterUsers = input ? users.filter((user)=>user.fullName.toLowerCase().includes(input.toLowerCase())) : users;
 
   useEffect(()=>{
 getUsers();
