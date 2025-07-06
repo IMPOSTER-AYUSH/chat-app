@@ -77,7 +77,7 @@ useEffect(()=>{
   {/* Back button (for mobile) */}
   <img
     onClick={() => setSelectedUser(null)}
-    src={assets.back_icon || assets.arrow_left_icon} // make sure this is a real back icon
+    src={assets.back_icon || assets.arrow_icon} // make sure this is a real back icon
     alt="Back"
     className="md:hidden w-6 h-6 cursor-pointer"
   />
